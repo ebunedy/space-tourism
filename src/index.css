@@ -659,6 +659,9 @@ select {
       ". dots dots ."
       ". image image .";
   }
+  .crew-details > div p {
+    font-size: var(--fs-600);
+  }
 }
 
 @media (min-width: 45rem) {
