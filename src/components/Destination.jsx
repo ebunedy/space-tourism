@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { tabsNavigation } from "../linksData";
-import data from "../data.json";
+import { data } from "../data";
 
 const Destination = () => {
   const [active, setActive] = useState(0);

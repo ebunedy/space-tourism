@@ -43,3 +43,22 @@ export const tabsNavigation = [
     name: "Titan",
   },
 ];
+
+export const dotsNavigation = [
+  {
+    id: 0,
+    name: "Slide title",
+  },
+  {
+    id: 1,
+    name: "Slide title",
+  },
+  {
+    id: 2,
+    name: "Slide title",
+  },
+  {
+    id: 3,
+    name: "Slide title",
+  },
+];
