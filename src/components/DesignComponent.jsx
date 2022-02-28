@@ -226,10 +226,16 @@ const DesignComponent = () => {
           </div>
 
           <div class="number-indicator grid tab-list">
-              <button className="number-indicator-selected"><span>1</span></button>
-              <button ><span>2</span></button>
-              <button ><span>3</span></button>
-            </div>
+            <button className="number-indicator-selected">
+              <span>1</span>
+            </button>
+            <button>
+              <span>2</span>
+            </button>
+            <button>
+              <span>3</span>
+            </button>
+          </div>
         </div>
       </section>
     </div>

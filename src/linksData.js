@@ -62,3 +62,18 @@ export const dotsNavigation = [
     name: "Slide title",
   },
 ];
+
+export const numberNavigation = [
+  {
+    id: 0,
+    name: 1,
+  },
+  {
+    id: 1,
+    name: 2,
+  },
+  {
+    id: 2,
+    name: 3,
+  },
+];

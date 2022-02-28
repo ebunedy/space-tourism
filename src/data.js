@@ -1,3 +1,4 @@
+//destination
 import moonimage from "./assets/destination/image-moon.png";
 import marsimage from "./assets/destination/image-mars.png";
 import europaimage from "./assets/destination/image-europa.png";
@@ -8,6 +9,10 @@ import douglasHurleyImage from "./assets/crew/image-douglas-hurley.png";
 import markShuttleworthImage from "./assets/crew/image-mark-shuttleworth.png";
 import victorGloverImage from "./assets/crew/image-victor-glover.png";
 import anoushehAnsariImage from "./assets/crew/image-anousheh-ansari.png";
+
+//technology
+import launchVehicleImage from "./assets/technology/image-launch-vehicle-landscape.jpg";
+import spaceportImage from "./assets/technology/image-spaceport-landscape.jpg";
 
 export const data = {
   destinations: [
@@ -99,7 +104,7 @@ export const data = {
       name: "Launch vehicle",
       images: {
         portrait: "./assets/technology/image-launch-vehicle-portrait.jpg",
-        landscape: "./assets/technology/image-launch-vehicle-landscape.jpg",
+        landscape: launchVehicleImage,
       },
       description:
         "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!",
@@ -108,7 +113,7 @@ export const data = {
       name: "Spaceport",
       images: {
         portrait: "./assets/technology/image-spaceport-portrait.jpg",
-        landscape: "./assets/technology/image-spaceport-landscape.jpg",
+        landscape: spaceportImage
       },
       description:
         "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.",
