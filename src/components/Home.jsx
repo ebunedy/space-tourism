@@ -19,7 +19,7 @@ const Home = () => {
       </div>
       <div style={{ marginTop: "5rem" }}>
         <Link
-          to="/home"
+          to="/"
           className="large-button uppercase ff-serif fs-600 text-dark bg-white"
         >
           Explore
