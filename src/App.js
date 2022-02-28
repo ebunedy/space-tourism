@@ -1,4 +1,3 @@
-import DesignComponent from "./components/DesignComponent";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import Destination from "./components/Destination";
